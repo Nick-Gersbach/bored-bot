@@ -43,3 +43,27 @@ button {
   margin-top: 2.5rem;
   border: 2px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 42px;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  button {
+    height: 120px;
+    width: 120px;
+
+    font-size: 18px;
+  }
+}
